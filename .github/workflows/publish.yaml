@@ -21,7 +21,7 @@ jobs:
   publish:
     name: Publish NPM package
     runs-on: ubuntu-latest
-    if: github.repository == 'UCLA-IRL/ndnts-aux'
+    if: github.repository == 'markverick/ndnts-aux'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
